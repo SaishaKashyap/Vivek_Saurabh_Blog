@@ -61,7 +61,6 @@ p {
 
 .posts-para {
   text-align: center;
-
 }
 
 .posts a {
@@ -71,6 +70,22 @@ p {
 }
 
 .posts a:hover {
+  color: #8f4426;
+  text-decoration: none;
+  font-family: 'Roboto Slab', serif;
+  padding-bottom: 3px;
+  border-bottom: 2px solid #290001;
+}
+
+.go-back a {
+  color: #8f4426;
+  font-size: 130%;
+  font-family: 'Roboto Slab', serif;
+  float: right;
+
+}
+
+.go-back a:hover {
   color: #8f4426;
   text-decoration: none;
   font-family: 'Roboto Slab', serif;
